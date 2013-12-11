@@ -1,0 +1,13 @@
+This is an emulator for the SimpleRISC assembly language written in C++.
+Note:SimpleRISC assembly language is very similar to ARM and was developed in IIT Delhi for the purpose of teaching.
+		See the .risc files for an idea.
+
+USAGE:
+To run the assembly file type in the following command:
+ 		$ make
+ 		$ ./run.sh (name of the assembly file)
+
+Some sample assembly files have been kept in the TestCases folder along with their corresponding output.
+
+PRE-REQUISITES:
+C++ should be installed.

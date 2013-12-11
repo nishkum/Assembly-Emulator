@@ -1,0 +1,16 @@
+.foo1:
+	mod r1, r1, 13
+	ret
+
+.foo:
+	add r2, r0, r4
+	ret
+	
+.main:
+	mov r0,11
+	mov r4,24
+	call .foo
+	mul r1, r2, r4
+	call .foo1
+	.print r1
+	

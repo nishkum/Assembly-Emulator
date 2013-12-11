@@ -1,0 +1,12 @@
+.main:
+mov r0, 1
+add r0, r0, 10
+sub r0, r0, 1
+div r0, r0, 2
+mod r0,r0,3
+lsl r0,r0,2
+lsr r0,r0,1
+and r0,r0,4
+or r0, r0,1
+mov r1, r0
+.print r1

@@ -1,0 +1,7 @@
+.main:
+mov r0,0
+mov r1,5
+st r1, [r0]
+ld r3, [r0]
+mov r1, r3
+.print r1

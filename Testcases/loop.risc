@@ -1,0 +1,12 @@
+.main:
+mov r7, 7
+mov r1, 1   
+mov r8, r7  
+
+.loop:
+mul r1, r1, r8 
+sub r8, r8, 1  
+cmp r8, 1  
+bgt .loop 
+
+.print r1

@@ -1,0 +1,6 @@
+.main:
+mov r5, 15
+mov r2, 20
+mul r3, r5, r2
+sub r1, r3, 21
+.print r1
